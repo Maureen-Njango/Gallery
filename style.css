@@ -1,0 +1,60 @@
+#landingpage{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+    /* background-image: url(media/flowerinvase.webp); */
+    /* background-size: cover; */
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+   
+
+    
+  
+
+
+}
+#landing{
+    background-image: url(media/pink.webp);
+    background-size: cover;
+    height: 618px;
+    background-repeat: no-repeat;
+}
+
+#nuvbar{
+    justify-content: center;
+    display: flex;
+    gap: 20%;
+    list-style-type: none;
+    background-color: aqua;
+    height: 15%;
+
+}
+
+
+#nuvbar a{
+ text-decoration: none;;
+ margin-top: 2%;
+
+
+}
+.h2{
+    font-size: xx-large;
+    
+}
+
+/* 
+#nuvbar{
+    display: flex;
+    
+    gap: 13%;
+    background-color: rgb(238, 235, 239);
+    height: 80px;
+   
+   list-style-type: none;
+}
+#nuvbar a{
+ text-decoration: none;;
+ margin-top: 2%;
+} */
