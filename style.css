@@ -58,3 +58,39 @@
  text-decoration: none;;
  margin-top: 2%;
 } */
+
+
+#homepage{
+    text-align: center;
+    background-color:aqua;
+    padding: 50px;
+
+}
+#text{
+    text-decoration: none;
+    color:blue;
+    font-size: xx-large;
+    
+}
+a:hover{
+    background-color: brown;
+}
+
+Button{
+    
+    color: blue;
+    background-color: aqua;
+    border-radius: 50px;
+    height: 40px;
+    width: 135px;
+    margin-left: 90%;
+    font-size: x-large;
+    margin-top: 2%;
+    border: none;
+    
+    
+}
+button:hover {
+    background: brown;
+  }
+  
