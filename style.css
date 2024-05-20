@@ -25,14 +25,19 @@ h1{
     gap: 20%;
     list-style-type: none;
     background-color: rgb(217, 243, 243);
-    height: 5%;
+    height: 10%;
 
 }
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
 
 
 #navbar a{
  text-decoration: none;;
- margin-top: 2%;
+ margin-top: 1%;
 
 
 }
@@ -192,6 +197,13 @@ figcaption{
     button:hover {
         background: rgb(212, 196, 196);
       }
+      #landing{
+        background-image: url(media/pink.webp);
+        background-size: cover;
+        height: 515px;
+        background-repeat: no-repeat;
+    }
+    
    
 }
 
