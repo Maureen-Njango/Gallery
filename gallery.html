@@ -9,14 +9,17 @@
 </head>
 <body>
     <div id="homepage">
-        <a id="text" href="Flower Image Gallery ">Flower Image Galley</a>
+        <a id="text" href="index.html">Home</a>
     </div>
-    <button>Add Image</button>
-    <script src="image.js"></script>
-    <script src="script.js"></script>
+    <h1>Flower Image Gallery</h1>
+    <!-- <button>Add Image</button> -->
+    <input type="text" id="imageURL" placeholder="Enter image URL">
+    <button onclick="addImage()">Add Image</button>
+    <div id="gallery">
+
+    </div>
     <div>
         <div class="images">
-            <button class="btn-close">&times;</button>
             <figure>
             <img src="media/lily.jpg" alt="Lily Flower" class="image">
             <figcaption>Lily Flower</figcaption>
@@ -37,21 +40,24 @@
              
             </div>
             <div id="roses"> 
-                <img src="media/rose1.png" alt="orange rose" onclick="enlargeImg()" id="img11">
-                <figcaption></figcaption>
+                <figure>
+                <img src="media/rose1.png" alt="orange rose" onclick="enlargeImg()" id="img1">
+                <figcaption>orange rose</figcaption>
              </figure>
              <figure>
-                 <img src="media/rose2.png" alt="red rose" class="flower" onclick="enlargeImg1()" id="img1">
+                 <img src="media/rose2.png" alt="red rose" class="flower" onclick="enlargeImg1()" id="img2">
                  <figcaption>red rose</figcaption>
              </figure>
              <figure>
-                 <img src="media/rose3.png" alt="pink rose" onclick="enlargeImg()" id="img1">
+                 <img src="media/rose3.png" alt="pink rose" onclick="enlargeImg()" id="img3">
                  <figcaption>pink rose</figcaption>
                  </figure>
                  <figure>
-                 <img src="media/rose5.png" alt="yellow rose" onclick="enlargeImg()"id="img1">
+                 <img src="media/rose5.png" alt="yellow rose" onclick="enlargeImg()"id="img4">
                  <figcaption>yellow rose</figcaption>
-                 </figure></div>
+                 </figure>
+                </div>
+                <span onclick="this.parentElement.style.display = 'none'"class = "close">&times;</span>
    
         <script src="script.js"></script>
     </div>
