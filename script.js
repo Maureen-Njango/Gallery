@@ -10,6 +10,19 @@ function addImage() {
     }
   }
 
+  const deletebtn = document.createElement("button")
+  deletebtn.textContent = 'Delete';
+  deletebtn.classList.add('delete-btn')
+  myImages.appendChild(deletebtn)
+ 
+  let myImages = document.querySelector("images")
+  myImages.addEventListener("click", function(e){
+    if(e.target.className === 'close'|| e.target.id=== 'myImages'){
+    myImages.computedStyleMap.display = 'none'
+    }
+  })
+
+
 
 
 
