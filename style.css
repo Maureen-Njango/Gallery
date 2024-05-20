@@ -15,7 +15,7 @@ h1{
 #landing{
     background-image: url(media/pink.webp);
     background-size: cover;
-    height: 515px;
+    height: 700px;
     background-repeat: no-repeat;
 }
 
@@ -125,9 +125,9 @@ img:active{
 
 .close{
 position: absolute;
-right:10px;
-top: 10px;
-padding: 10px 14px 10px 14px;
+right:9px;
+top: 210px;
+padding: 10px 14px 10px 14px
 }
 .close:hover{
     background-color: rgb(170, 219, 219);
